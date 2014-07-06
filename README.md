@@ -12,6 +12,8 @@
 
 # log
 
-0. [HelloJava](http://otiai10.hatenablog.com/entry/2014/07/06/215920)
+0.[HelloJava](http://otiai10.hatenablog.com/entry/2014/07/06/215920)
+
+
 1. hoge
 2. fuga
