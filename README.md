@@ -15,5 +15,5 @@
 0.[HelloJava](http://otiai10.hatenablog.com/entry/2014/07/06/215920)
 
 
-1. hoge
+1. [Singleton](http://otiai10.hatenablog.com/entry/2014/07/23/235632)
 2. fuga
