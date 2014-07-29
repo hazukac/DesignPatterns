@@ -12,8 +12,10 @@
 
 # log
 
-0.[HelloJava](http://otiai10.hatenablog.com/entry/2014/07/06/215920)
+[HelloJava](http://otiai10.hatenablog.com/entry/2014/07/06/215920), [Singleton](http://otiai10.hatenablog.com/entry/2014/07/23/235632)
 
 
-1. [Singleton](http://otiai10.hatenablog.com/entry/2014/07/23/235632)
-2. fuga
+1. [デザインパターンに慣れる]()
+    1. [Iterator]()
+    2. [Adapter]()
+2. hoge
