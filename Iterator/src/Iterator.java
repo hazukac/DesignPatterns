@@ -1,6 +1,8 @@
 // いてレータ
 public interface Iterator {
-    public abstract boolean hasNext();
+    /* public */ /* abstract */
+    boolean hasNext();
     // Objectってなに？
-    public abstract Object next();
+    /* public abstract */
+    Object next();
 }

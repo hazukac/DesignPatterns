@@ -6,3 +6,4 @@ public class Main {
         p.printStrong();
     }
 }
+// interfaceとabstract classの違い

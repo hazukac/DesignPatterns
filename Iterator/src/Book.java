@@ -1,9 +1,9 @@
 public class Book {
-    private String name = "";
+    private String authorName = "";
     public Book(String name) {
-        this.name = name;
+        authorName = name;
     }
-    public String getName() {
-        return this.name;
+    public String getAuthorName() {
+        return /* this. */authorName;
     }
 }

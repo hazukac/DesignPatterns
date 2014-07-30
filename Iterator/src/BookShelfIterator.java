@@ -10,10 +10,8 @@ public class BookShelfIterator implements Iterator {
         // TODO: 1
         if (this.index < this.bookShelf.getLength()) {
             return true;
-        } else {
-            return false;
         }
-        // TODO: 2
+        return false;
     }
     public Object next() {
         Book book = bookShelf.getBookAt(this.index);
