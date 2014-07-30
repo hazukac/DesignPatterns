@@ -18,6 +18,6 @@
 1. [デザインパターンに慣れる]()
     1. [Iterator](https://github.com/otiai10/DesignPattern.java/tree/master/Iterator)
     2. [Adapter](https://github.com/otiai10/DesignPattern.java/tree/master/Adapter)
-        1. [Class継承を使ったもの]()
-        2. [委譲を使ったもの]()
+        1. [Class継承を使ったもの](https://github.com/otiai10/DesignPattern.java/tree/master/Adapter/case1)
+        2. [委譲を使ったもの](https://github.com/otiai10/DesignPattern.java/tree/master/Adapter/case2)
 2. hoge
