@@ -9,3 +9,10 @@ public abstract class Factory<T> {
     protected abstract T createProduct(String owner);
     protected abstract void registerProduct(T product);
 }
+
+/*
+Hoge hoge = new Hoge();
+TemplateMethodパターンとの違いがよくわからん
+-> ちがわない
+-> たんなる応用です
+ */

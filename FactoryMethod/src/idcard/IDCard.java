@@ -1,5 +1,6 @@
 package idcard;
-import framework.*;
+
+import framework.Product;
 
 public class IDCard extends Product {
     private String owner;
