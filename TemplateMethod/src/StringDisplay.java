@@ -4,10 +4,12 @@ public class StringDisplay extends AbstractDisplay {
     private String separator = "|";
     private String lineSeparator = "+";
     private String lineContent = "-";
+
     public StringDisplay(String string) {
         this.string = string;
         this.width = string.getBytes().length;
     }
+
     public void open() {
         this.printLine();
     }
@@ -17,6 +19,7 @@ public class StringDisplay extends AbstractDisplay {
     public void close() {
         this.printLine();
     }
+
     private void printLine() {
         System.out.print(this.lineSeparator);
         for (int i = 0; i < this.width; i++) {
