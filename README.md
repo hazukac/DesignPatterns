@@ -23,7 +23,7 @@
 2. [サブクラスにまかせる]()
     1. [TemplateMethod]()
     2. [FactoryMethod]()
-3. [インスタンスを作る]()
+3. [インスタンスを作る]() @otiai10 08/20
     1. [Singleton]()
     2. [Prototype]()
     3. [Builder]()
