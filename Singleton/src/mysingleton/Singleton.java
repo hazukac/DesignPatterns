@@ -21,6 +21,9 @@ public class Singleton {
 
     // defaultだと、同じパッケーじからアクセスできるので
     // default Singleton(String x) {
+    // このクラス定義外で
+    // new Singleton("hoge");
+    // という文は書けなくなる
     private Singleton(String x) {
         this.hoge = x;
         this.initializedAt = new Date();
