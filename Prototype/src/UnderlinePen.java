@@ -14,7 +14,7 @@ public class UnderlinePen implements Product {
         }
         System.out.println("");
     }
-    private Product createClone() {
+    public Product createClone() {
         Product p = null;
         try {
             p = (Product)this.clone();
