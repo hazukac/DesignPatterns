@@ -7,13 +7,13 @@ public class Main {
         }
         Director director;
         if (args[0].equals("plain")) {
-            TextBuilder builder = new TextBuilder();
-            director = new Director(builder);
+            TextBuilder textBuilder = new TextBuilder();
+            director = new Director(textBuilder);
             director.construct();
-            System.out.println(builder.getResult());
+            System.out.println(textBuilder.getResult());
         }
     }
     public static void usage() {
-        System.out.println("ほげ");
+        System.out.println("引数に装飾の名前を渡して下さい");
     }
 }
