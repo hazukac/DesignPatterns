@@ -50,3 +50,12 @@
 10. [クラスで表現する]()
     1. [Command]()
     2. [Interpreter]()
+
+## connpass
+
+1. [恥ずかしいデザインパターン勉強会 #1](http://connpass.com/event/7375/)
+1. [恥ずかしいデザインパターン勉強会 #2](http://connpass.com/event/7734/)
+1. [恥ずかしいデザインパターン勉強会 #3](http://connpass.com/event/7846/)
+1. [恥ずかしいデザインパターン勉強会 #4](http://connpass.com/event/7952/)
+1. [恥ずかしいデザインパターン勉強会 #5](http://connpass.com/event/8245/)
+
