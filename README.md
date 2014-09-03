@@ -58,4 +58,4 @@
 1. [恥ずかしいデザインパターン勉強会 #3](http://connpass.com/event/7846/)
 1. [恥ずかしいデザインパターン勉強会 #4](http://connpass.com/event/7952/)
 1. [恥ずかしいデザインパターン勉強会 #5](http://connpass.com/event/8245/)
-
+1. [恥ずかしいデザインパターン勉強会 #6](http://connpass.com/event/8371/)
