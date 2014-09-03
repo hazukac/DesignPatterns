@@ -4,7 +4,10 @@ public abstract class Factory {
     public static Factory getFactory(String className) {
         Factory factory = null;
         try {
-            factory = (Factory)Class.forName(className).newInstance();
+            // clazz ? or klass
+            Class clazz = Class.forName(className);
+            Object instance = clazz.newInstance();
+            factory = (Factory)instance;
         } catch (ClassNotFoundException e) {
             System.err.println("クラス名 " + className + " が見つかりませーん");
         } catch (Exception e) {

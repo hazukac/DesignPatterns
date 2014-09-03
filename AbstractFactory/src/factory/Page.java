@@ -1,6 +1,10 @@
 package factory;
 
-import java.io.*;
+// TODO: たぶん、java.io.FileWriterだけでいい気がする
+import java.io.Writer;
+import java.io.FileWriter;
+import java.io.IOException;
+// TODO: たぶんVectorだけ
 import java.util.*;
 
 public abstract class Page {
