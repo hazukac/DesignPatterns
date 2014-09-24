@@ -9,12 +9,15 @@ public class FullBorder extends Border {
         return 1 + this.display.getRows() + 1;
     }
     public String getRowText(int row) {
+        // さいしょの行
         if (row == 0) {
             return "+" + this.makeLine('-', this.display.getColumns()) + "+";
         }
+        // さいごの行
         if (row == this.display.getRows() + 1) {
             return "+" + this.makeLine('-', this.display.getColumns()) + "+";
         }
+        // それいがいの行
         return "|" + this.display.getRowText(row - 1) + "|";
     }
     private String makeLine(char ch, int count) {

@@ -6,7 +6,7 @@ public class StringDisplay extends Display {
     public int getColumns() {
         return this.string.getBytes().length;
     }
-    public int getRow() {
+    public int getRows() {
         return 1;
     }
     public String getRowText(int row) {
