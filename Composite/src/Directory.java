@@ -3,7 +3,7 @@ import java.util.Vector;
 
 public class Directory extends Entry {
     private String name;
-    private Vector directory = new Vector();
+    private Vector<Entry> directory = new Vector<Entry>();
     public Directory(String name) {
         this.name = name;
     }
@@ -19,7 +19,7 @@ public class Directory extends Entry {
         }
         return size;
     }
-    public Entry add(Entry entry) {
+    public Entry append(Entry entry) {
         this.directory.add(entry);
         return this;
     }
