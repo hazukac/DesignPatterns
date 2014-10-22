@@ -31,6 +31,7 @@ public class Gamer {
             case 6:
                 String fruit = this.getFruit();
                 System.out.println(fruit + "をゲット");
+                this.fruits.add(fruit);
                 break;
             default:
                 System.out.println("何も起きない");

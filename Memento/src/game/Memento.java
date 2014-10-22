@@ -4,12 +4,12 @@ import java.util.Vector;
 public class Memento {
     int money;
     Vector<String> fruits;
-    public int getMoney() {
-        return this.money;
-    }
     Memento(int money) {
         this.money = money;
         this.fruits = new Vector<String>();
+    }
+    public int getMoney() {
+        return this.money;
     }
     void addFruit(String fruit) {
         this.fruits.add(fruit);
