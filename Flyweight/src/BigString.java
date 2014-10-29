@@ -1,4 +1,4 @@
-
+// new Type[length]
 public class BigString {
     private BigChar[] bigChars;
     public BigString(String string) {
