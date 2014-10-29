@@ -7,10 +7,10 @@ public class PrinterProxy implements Printable {
         this.name = name;
     }
     public synchronized void setName(String name) {
+        this.name = name;
         if (this.real != null) {
             this.real.setName(name);
         }
-        this.name = name;
     }
     public String getName() {
         return this.name;
