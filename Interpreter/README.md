@@ -1,0 +1,1 @@
+# Interpreterパターン
