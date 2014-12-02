@@ -1,3 +1,0 @@
-1,T-Shirt,1500
-2,Stuffed,2000
-3,Cookies,800
